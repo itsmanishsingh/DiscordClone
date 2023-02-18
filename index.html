@@ -21,10 +21,6 @@
                     colors: {
                         bgWhite: '#fcfcfc',
                         bgblue: '#3944F7',
-                        paleGreen: '#A5E3B9',
-                        darkGreen: "#004C3F",
-                        honeydew: '#F3FCF4',
-                        secondaryGreen: "#008060",
                     }
                 }
             }
@@ -42,8 +38,8 @@
             </div>
         </div>
         <div class="ml-5 mr-5 mt-2 mr-6 flex ">
-            <i class="fa fa-bars ml-5 mr--3 mt-3 font-bold text-4xl text-white lg:hidden" aria-hidden="true"></i>
-            <div class="nav-hidden-1 hidden lg:flex lg:mt-5">
+            <!-- <i class="fa fa-bars ml-5 mr--3 mt-3 font-bold text-4xl text-white md:hidden" aria-hidden="true"></i> -->
+            <div class="nav-hidden-1 hidden top-0 right-0 md:flex lg:mt-5">
                 <div class="dropdown">
                     <button class="text-xl ml-5 px-2 ">Download
                     </button>
@@ -74,27 +70,37 @@
                 </div>
             </div>
         </div>
-        <div class="nav-items flex ml-5 mr-5 m-2 mb-12 mt-4">
-            <button class=" mr-10 mt-2 pt-3 px-2 rounded-full bg-white text-bgblue font-bold">Login</button>
+        <div class="justify-center flex">
+            <button class=" bg-white text-black px-5 py-2 rounded-full font-bold align-center justify-center mt-6">Sign Up</button>
+            <i class="fa fa-bars ml-5 mr--3 mt-8 font-bold text-4xl text-white md:hidden" aria-hidden="true"></i>
         </div>
         
     </nav>
 
-    <!-- Container-1 -->
-    <div class="container-1 text-white bg-bgblue text-left pl-2 md:text-center">
-        <div>
-            <h1 class="text-4xl font-extrabold p-2">IMAGINE A PLACE...</h1>
-            <p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.
-            </p>
+    <!-- Container-1  Imagine a place-->
+    
+    <div class="container-3 bg-bgblue py-2 lg:relative">
+        <div class="flex-row py-2 lg:justify-items-center lg:absolute lg:top-0 lg:bg-transparent lg:w-1/2 lg:mt-10 lg:py-0">
+            <img src="./assets/container-3-text.svg" alt="">
+            <div class="justify-center py-4 text-center text-">
+                <h1 class="text-4xl text-left ml-10 font-extrabold p-2">IMAGINE A PLACE...</h1>
+                <p class="mx-10 py-4 text-left">...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
+            </div>
+            <div class="container-3-button flex-column justify-center">
+                <button class="bg-white px-5 py-2 rounded-full text-black font-bold">
+                    <i class="fa-solid fa-arrow-down-to-line"></i>
+                    <i class="fa-regular fa-arrow-down-to-bracket"></i>
+                    Download for Windows
+                </button>
+                <button class="bg-[#383CC1] px-5 py-2 rounded-full text-white font-bold">Open Discord in the browser</button>
+            </div>
         </div>
-        <div class="flex-column md:flex-row ">
-            <button class="bg-white text-[#03203C] rounded-full mt-2 p-4">
-                <i class="fa-sharp fa-solid fa-arrow-down-to-line"></i>
-                    Download for Windows</button>
-            <button class="bg-[#120E43] rounded-full text-blue mt-2 p-4"> Open Discord in your browser</button>
-        </div>
-    </div>
+        <img src="./bg_1.svg" alt="" class="lg:-z-10 order-10 hidden md:flex">
+        <img src="./bg_2.svg" alt="" class="lg:-z-10 order-8 hidden absolute bottom-0 right-0">
+        <img src="./bg_3.svg" alt="" class="lg:-z-10 order-1 pt-10">
 
+        <!-- <div class="bg-origin-border p-4 border-4 border-dashed ..." style="background-image: url(https://discord.com/assets/e6d57714479874c665b36c7adee76b1d.svg)"></div> -->
+    </div>  
 
     <!-- Container-2  CREATE AN INVITE-ONLY -->
     <div class="container-2 mt-12">
@@ -135,18 +141,17 @@
 
     <!-- container-5 Reliable tech for staying close -->
     <section class="container-5 bg-[#CAD5E2] py-10">
-        <div class="con-4 ml-5 mr-5 lg:flex lg:flex-row-reverse">
-            <div>
-                <h1 class="text-left text-3xl py-3 text-slate-600 font-bold lg:font-bold lg:mr-5">RELIABLE TECH FOR STAYING CLOSE</h1>
-                <p class="mt-5">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share. </p>
+        <div class="con-4 ml-5 mr-5 md:justify-center">
+            <div class="md:text-center">
+                <h1 class="text-left text-3xl py-3 text-#120E43 font-bold md:text-center md:font-extrabold lg:mr-5">RELIABLE TECH FOR STAYING CLOSE</h1>
+                <p class="mt-5 text-xl py-3 text-slate-400 lg:ml-[20%] lg:mr-[20%]">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share. </p>
             </div>
-            <img src="./container-5_img.svg"
-                alt="" class="lg:w-1/2">
-            <div class="relative text-center overlay cursor-pointer pb-10">
+            <img src="./container-5_img.svg"alt="" class="md:w-1/2 md:content-center md:ml-[25%]">
+            <div class="relative text-center overlay cursor-pointer pb-10 ">
                     <img class="-z-10 object-cover w-[100%] h-[200px]"
                       src="./cont-5-bgimg.svg">
                     <h1
-                      class="h-[100%] text-black absolute top-[25%] left-[45%] -translate-x-1/2 -translate-y-1/2 flex items-center font-bold text-4xl">
+                      class="h-[100%] text-black absolute top-[25%] left-[45%] -translate-x-1/2 -translate-y-1/2 flex items-center font-bold text-4xl md:left-[48%]">
                       Ready to start your journey</h1>
                     <button class="bg-[#383CC1] p-4 px-24 rounded-full text-white mt-2 text-2xl">
                         <i class="fa-solid fa-arrow-down-to-line"></i>
@@ -163,7 +168,7 @@
                 <h1 class="text-4xl font-extrabold text-[#383CC1] pl-4 py-2">IMAGINE A PLACE</h1>
             </div>
             
-            <div class="social flex justify-around mr-[30%] text-white pt-5">
+            <div class="social flex justify-around mr-[30%] text-white pt-5 md:justify-between md:mr-[70%]">
                 <p><i class="fa-brands fa-facebook "></i></p>
                 <p><i class="fa-brands fa-twitter "></i></p>
                 <p><i class="fa-brands fa-youtube "></i></p>
