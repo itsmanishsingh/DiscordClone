@@ -25,16 +25,17 @@ I have cloned the [DISCORD](https://discord.com/) website using HTML and TAILWIN
 ### How the website looks:
 ***
 
-![output](./output/output-01.png)
-![output](./output/output-02.png)
+![output](./Output/outF1.png)
+![output](./Output/outF2.png)
 ![output](./output/output-03.png)
 ![output](./output/output-04.png)
 
 ### Responsive 
-![output](./output/out-res-01.png)
-![output](./output/out-res-02.png)
-![output](./output/out-res-03.png)
-![output](./output/out-res-04.png)
+![output](./Output/outR1.png)
+![output](./Output/outR2.png)
+![output](./Output/outR3.png)
+![output](./Output/outR4.png)
+![output](./Output/outR5.png)
 
 ***
 
