@@ -12,7 +12,7 @@ I have cloned the [DISCORD](https://discord.com/) website using HTML and TAILWIN
 ### `TAILWIND CSS`
 
 ***
-### Check the live website [here](https://rode-clone-16.netlify.app/ "RODE")
+### Check the live website [here](https://discordhomepageclone.netlify.app/ "DISCORD")
 
 ## My Learnings 
 - Learned more classes in Tailwind.
