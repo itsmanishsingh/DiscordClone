@@ -1,6 +1,6 @@
 # DISCORD Homepage Design Clone
 
-I have cloned the [DISCORD](https://discord.com/) website using HTML and TAILWIND CSS only.
+I have cloned the [DISCORD](https://discord.com/) homepage website using HTML and TAILWIND CSS only.
 
 ![Mobile-Responsive](https://img.shields.io/badge/Mobile%20Responsive-Yes-green)
 ![Deployed](https://img.shields.io/badge/Deployed-Yes-green)
